@@ -1,0 +1,35 @@
+.highlighted {
+	background-color: #f0ff00;
+}
+.bembe-highlight {
+	font-family: "Garamond", "Times New Roman", serif;
+	font-style: italic;
+}
+
+.top-text {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 0.9;
+  text-align: right;
+  margin-top: 2%;
+  font-family: "Karla Bold Stencil", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media (min-width: 900px) {
+	.top-text {
+		font-size: 2.2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+	}
+}
+
+.landing-text {
+  font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.4;
+}
+.spanish-text {
+  font-family: "Karla Bold Stencil", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.english-text {
+  font-family: "Karla", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.align-right {
+	text-align: right;
+}
