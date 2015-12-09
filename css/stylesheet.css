@@ -15,7 +15,7 @@
 }
 @media (min-width: 900px) {
 	.top-text {
-		font-size: 2.2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+		font-size: 2.0em; /* currently ems cause chrome bug misinterpreting rems on body element */
 	}
 }
 
